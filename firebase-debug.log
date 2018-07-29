@@ -1,0 +1,41 @@
+[debug] [2018-07-29T13:10:31.984Z] ----------------------------------------------------------------------
+[debug] [2018-07-29T13:10:31.986Z] Command:       /Users/humayunkabir/.nvm/versions/node/v8.11.1/bin/node /Users/humayunkabir/.nvm/versions/node/v8.11.1/bin/firebase serve
+[debug] [2018-07-29T13:10:31.986Z] CLI Version:   4.0.0
+[debug] [2018-07-29T13:10:31.986Z] Platform:      darwin
+[debug] [2018-07-29T13:10:31.986Z] Node Version:  v8.11.1
+[debug] [2018-07-29T13:10:31.987Z] Time:          Sun Jul 29 2018 19:10:31 GMT+0600 (+06)
+[debug] [2018-07-29T13:10:31.987Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-29T13:10:31.998Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-29T13:10:31.998Z] > authorizing via signed-in user
+[debug] [2018-07-29T13:10:32.000Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-29T13:10:32.000Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/vLUmgJezv3CM0Ndg6pXS1JS13a0w2jbcDhVNUZoMgWY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jul 29 2018 19:10:32 GMT+0600 (+06)
+[debug] [2018-07-29T13:10:32.477Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-29T13:10:32.509Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/humayunkabir-ricochet  
+  
+ Sun Jul 29 2018 19:10:32 GMT+0600 (+06)
+[debug] [2018-07-29T13:10:34.921Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-29T13:10:34.922Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/humayunkabir-ricochet/tokens  
+  
+ Sun Jul 29 2018 19:10:34 GMT+0600 (+06)
+[debug] [2018-07-29T13:10:35.878Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-29T13:10:35.879Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/humayunkabir-ricochet  
+  
+ Sun Jul 29 2018 19:10:35 GMT+0600 (+06)
+[debug] [2018-07-29T13:10:37.480Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Volumes/Data/Humayun Kabir/humayunkabir-ricochet'...
+[info] 
+[debug] [2018-07-29T13:10:37.482Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1035644128636/clients/_:getWebAppConfig  
+  
+ Sun Jul 29 2018 19:10:37 GMT+0600 (+06)
+[debug] [2018-07-29T13:10:39.136Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: game
+[info] ✔  hosting: Local server: http://localhost:5000
+
